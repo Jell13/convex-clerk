@@ -7,5 +7,5 @@ export default defineSchema({
         email: v.string(),
         imageUrl: v.string(),
         tokenIdentifier: v.string()
-    })
+    }).index("by_email", ["email"]).index("by_tokenIdentifier", ["tokenIdentifier"])
 })
