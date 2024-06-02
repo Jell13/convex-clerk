@@ -1,10 +1,11 @@
+import { Card } from '@components/ui/card'
 import React from 'react'
 
 const DesktopNav = () => {
   return (
-    <div>
-      Desktop Navigation
-    </div>
+    <Card className="w-16">
+
+    </Card>
   )
 }
 
